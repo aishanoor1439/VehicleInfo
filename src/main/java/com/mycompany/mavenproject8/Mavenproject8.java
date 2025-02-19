@@ -1,16 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.mavenproject8;
 
-/**
- *
- * @author ABC
- */
 public class Mavenproject8 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Car c1 = new Car();
+        c1.showDetails();
+        c1.updateMilage();
+        c1.showDetails();
+        
     }
 }
